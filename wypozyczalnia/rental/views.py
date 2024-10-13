@@ -1,7 +1,7 @@
 from rest_framework import generics, permissions
 from rest_framework.response import Response
-from .models import Film, Rental, Category
-from .serializers import RegisterSerializer, FilmSerializer, RentalSerializer, CategorySerializer
+from .models import Film, Rental
+from .serializers import RegisterSerializer, FilmSerializer, RentalSerializer
 from django.shortcuts import render
 
 class RegisterView(generics.CreateAPIView):

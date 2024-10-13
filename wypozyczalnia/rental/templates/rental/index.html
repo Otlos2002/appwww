@@ -19,7 +19,7 @@
             <h3>{{ film.title }}</h3>
             <p>{{ film.description }}</p>
             <p><strong>Rok produkcji:</strong> {{ film.release_year }}</p>
-            <p><strong>Kategoria:</strong> {{ film.category.name }}</p>
+            <p><strong>Kategoria:</strong> {{ film.category }}</p>
         </div>
     {% empty %}
         <p>Brak filmów do wyświetlenia.</p>
